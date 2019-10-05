@@ -1,3 +1,17 @@
+//Declaring Variables
+var oldWay = true; // Using 'var' allows you to change the value of 'oldWay' to anything, at anytime.
+// EXAMPLE
+// oldWay = 1; (valid)
+// oldWay = 'coding is fun'; (valid)
+const canNotChange = true; // ES6 - Once a 'const' is set, it cannot be changed. Best practice to use when a value should never change.
+// EXAMPLE
+// canNotChange = 1; (NOT VALID)
+let canBeUpdated = true; // ES6 - Using 'let' will allow you to change the value anytime you want.
+// EXAMPLE
+// canBeUpdated = 1; (valid)
+// canBeUpdated = 'CodeWorks is awesome'; (valid)
+
+
 //DataTypes
 
 //Value Types (Primative Types)
